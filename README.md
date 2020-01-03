@@ -13,9 +13,11 @@ Example of first 4 codes in text file:
 
 ### Usage
 
-`Main Program.xlsm` works as GUI.
+`Main Program.xlsm` works as GUI. Screenshot from "Main" sheet in `Main Program.xlsm`:
+![Parse Post Codes Excel GUI screenshot](https://user-images.githubusercontent.com/45366313/71713394-2b5c9c00-2e12-11ea-8122-3f90849b8275.JPG)
 
-1. On workbook open, command prompt is instantiated and `where python` is executed, capturing output to hidden sheet in `A1` cell.
+
+1. On workbook open, command prompt is instantiated and `where python` is executed, capturing output to hidden sheet "PyPath" in `A1` cell.
 2. **Reset** button simply cleans contents from *Main* worksheet
 3. **Use New Code** `Postal_Codes_Manager.xlsx`, copies first free code and moves it to "Expired Codes" sheet
 4. **Add New Postal Codes** launches `txt_to_excel.py`, which converts txt file contents to list and starts appending it from first free row in A column, "Free Codes" sheet, `Postal_Codes_Manager.xlsx` workbook
