@@ -42,6 +42,7 @@ All VBA part modules have been exported for inspection and are in [VBA Modules](
 - Python 3.7.3+
 - openpyxl (`pip install openpyxl`)
 - Python added to PATH
+- In order to use barcode, all `IDAutomationHC39M Free Version.otf` to Fonts
 
 
 *Tested only on Windows machine*
