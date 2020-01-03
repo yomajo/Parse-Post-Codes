@@ -7,17 +7,17 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = True
-Private Sub Workbook_Open()
-'Write Pythonw.exe PATH to A1 cell in PyPath worksheet on workbook open
-
 Dim objShell As Object
 Dim fso As Object
-Dim PythonwExePath
 Dim objExec As Object
 Dim objOutput As Object
 Dim oCmd As String
 Dim sOutputStr As String
 Dim sLine As String
+Dim PythonwExePath As String
+
+Private Sub Workbook_Open()
+'Write Pythonw.exe PATH to A1 cell in PyPath worksheet on workbook open
 
 Application.ScreenUpdating = False
 'Reset variable
