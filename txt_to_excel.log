@@ -1,0 +1,13 @@
+INFO:root:This path was given through system arguments: C:\Coding\Parse Post Codes\post_codes.txt
+INFO:root:Run() start
+INFO:root:Opening: C:\Coding\Parse Post Codes\Postal_Codes_Manager.xlsx to get last used row inside get_last_used_row_number func
+INFO:root:Filling workbook with codes
+INFO:root:Opening file to read: C:\Coding\Parse Post Codes\post_codes.txt
+INFO:root:Before validation, list len: 5000
+INFO:root:Before validation, list len: 5000
+INFO:root:Read post_codes.txt and formed a list codes_list containing 5000 codes
+INFO:root:Finished looping through codes
+INFO:root:Currently workbook contains 5000 codes
+INFO:root:Workbook Postal_Codes_Manager.xlsx updated with new codes
+INFO:root:SCRIPT FINISHED WITHOUT ERRORS
+INFO:root:Opening: C:\Coding\Parse Post Codes\Postal_Codes_Manager.xlsx to get last used row inside get_last_used_row_number func
